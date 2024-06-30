@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="wrapper">
@@ -16,7 +12,7 @@
         <!-- =========================================================== -->
         <!------------------------------NavBar Section--------------------->
         <!-- =========================================================== -->
-        <div class="nav-bar">
+        <div class="nav-bar" id="barNav">
           <div class="web-title">
             <!-- <a href="index.html">Travosy</a> -->
             <a href="index.html">trip<span>.</span>in</a>
@@ -25,31 +21,31 @@
           <nav class="nav-items">
             <ul>
               <li>
-                <a href="">Home</a>
+                <a href="#">Home</a>
                 <div class="underline"></div>
               </li>
               <li>
-                <a href="">Reservstion</a>
+                <a href="#">Reservstion</a>
                 <div class="underline"></div>
               </li>
               <li>
-                <a href="">Menu</a>
+                <a href="#catalog">Menu</a>
                 <div class="underline"></div>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="#tour">Blog</a>
                 <div class="underline"></div>
               </li>
               <li>
-                <a href="">Feature</a>
+                <a href="#catalog">Feature</a>
                 <div class="underline"></div>
               </li>
               <li>
-                <a href="">Book Ticket</a>
+                <a href="#deal" >Book Ticket</a>
                 <div class="underline"></div>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
                 <div class="underline"></div>
               </li>
             </ul>
@@ -97,7 +93,7 @@
       <!-- =========================================================== -->
       <!------------------------------Tour Section--------------------->
       <!-- =========================================================== -->
-      <div class="tour-section">
+      <div class="tour-section" id="tour">
         <div class="tour-container">
           <h2>Unforgettable</h2>
           <h3>Tour</h3>
@@ -107,7 +103,7 @@
       <!-- =========================================================== -->
       <!------------------------------Catalog Section--------------------->
       <!-- =========================================================== -->
-      <div class="catalog-section">
+      <div class="catalog-section" id="catalog">
         <div class="left-catalog">
           <img src="./Images/waterfall-1.jpg" alt="" loading="lazy" />
           <img src="./Images/island.jpg" alt="" loading="lazy" />
@@ -116,8 +112,8 @@
         </div>
 
         <div class="right-catalog">
-          <h2>Discover</h2>
-          <h3>Catalog</h3>
+          <h2>Checkout</h2>
+          <h3>The Catalog</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             corporis provident eos delectus necessitatibus excepturi sint,
@@ -125,7 +121,7 @@
             voluptas quibusdam minus sapiente.
           </p>
           <div class="catalog-link">
-            <a href="">View The Full Catalog</a>
+            <a href="">View Full Catalog</a>
             <div class="underline"></div>
           </div>
         </div>
@@ -142,7 +138,7 @@
       <!-- =========================================================== -->
       <!------------------------------Hot-Deals Section--------------------->
       <!-- =========================================================== -->
-      <div class="deal-section">
+      <div class="deal-section" id="deal">
         <div class="left-deal">
           <h2>Deals</h2>
           <h3>Voyage Beyond</h3>
@@ -170,7 +166,7 @@
       <!-- =========================================================== -->
       <!------------------------------Contact-Us Section--------------------->
       <!-- =========================================================== -->
-      <div class="contact-us-section">
+      <div class="contact-us-section" id="contact">
         <h2>About Trip.in</h2>
         <p>
           Trip.in Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -224,15 +220,19 @@
           y="0px"
           viewBox="0 0 160.7 61.5"
           enable-background="new 0 0 160.7 61.5"
-          xml:space="preserve" >
+          xml:space="preserve"
+        >
           <path
             fill="#262526"
-            d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z" ></path>
+            d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"
+          ></path>
         </svg>
-        <!-- <i class="fas fa-angle-double-up arrow-up"></i> -->
-         <img src="Images/arrow-up.png" alt="" class="arrow-up">
+        <img src="Images/arrow-up.png" alt="" class="arrow-up" />
         <div class="copywrite">
-          <p class="copywrite-desc">©Trip.in 2024</p>
+          <p class="copywrite-desc">
+            ©Trip.in 2024 <br />
+            Made with &#10084 by Nilesh
+          </p>
           <div class="contact-info">
             <div>
               <img src="Images/location.svg" alt="" />
